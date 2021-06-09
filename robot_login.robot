@@ -2,7 +2,6 @@
 Library  Selenium2Library
 
 *** Variables ***
-${expect}  ROBOT FRAME WORK/
 ${url}  https://github.com/
 ${Browser}  Chrome
 
@@ -18,4 +17,6 @@ ${Browser}  Chrome
 3. Input username
    Input Text  name=login  demo
 4. Input password
-   Input Text  name=password password
+   Input Text  name=password  xxxx
+5. Click to login
+   Click Button  name=commit
